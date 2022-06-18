@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <p>I'm Atif and this is supposed to be my website</p>
+        <p>I'm Atif and this is supposed to be my website.</p>
         <p>Still working on it, for now:</p>
         <p><a
           className="App-link"
@@ -22,6 +22,22 @@ function App() {
           rel="noopener noreferrer"
         >
           Github
+        </a></p>
+        <p><a
+          className="App-link"
+          href="https://www.atifimal.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog
+        </a></p>
+        <p><a
+          className="App-link"
+          href="https://www.atif.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Trivia
         </a></p>
         <p><a
           className="App-link"
