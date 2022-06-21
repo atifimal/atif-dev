@@ -1,52 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/layouts/Header';
 
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <div className="App-header">
-        <p>I'm Atif and this is supposed to be my website.</p>
-        <p>Still working on it, for now:</p>
-        <p><a
-          className="App-link"
-          href="https://linkedin.com/in/atif-imal"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a></p>
-        <p><a
-          className="App-link"
-          href="https://github.com/atifimal"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github
-        </a></p>
-        <p><a
-          className="App-link"
-          href="https://www.atifimal.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Blog
-        </a></p>
-        <p><a
-          className="App-link"
-          href="https://www.atif.io/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Trivia
-        </a></p>
-        <p><a
-          className="App-link"
-          href="mailto:me@atif.dev"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          me@atif.dev
-        </a></p>
+        <div className='card'>
+          <p>Hi, I'm Atif and still working on this website.</p>
+          <p><small><i>Last update: 22/6/2022</i></small></p>
+        </div>
       </div>
     </div>
   );

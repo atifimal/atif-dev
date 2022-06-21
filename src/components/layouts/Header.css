@@ -1,0 +1,81 @@
+.logo {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    margin-right: calc(100vw - 950px);
+}
+
+.logo-ps {
+    height: 100%;
+    color: #FFF;
+}
+
+.p-fname {
+    padding: 30px 0 0 0;
+    margin: 0;
+}
+
+.p-lname {
+    margin: 0;
+}
+
+.header-container {
+    text-align: left;
+    background-position: center;
+    background-size: cover;
+    min-height: 17vh;
+    background-color: #232f3e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-container div {
+    display: inline-block;
+    color: #FFF;
+}
+
+.header-container .links div {
+    margin-left: 50px;
+    width: 75px;
+    padding: 10px;
+    text-align: center;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .header-container2 {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .logo {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .header-container .links, .header-container .links div {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+    .App-link {
+        text-decoration: none;
+    }
+
+    .card {
+        width: auto;
+    }
+  }
