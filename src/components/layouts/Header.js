@@ -2,12 +2,9 @@ import './Header.css'
 
 function Header() {
     return (
-        <div className="header-container">
+        <div className="App-header">
             <div className='logo'>
-                <div className='logo-ps'>
-                    <p className='p-fname noselect'>Atif</p>
-                    <p className='p-lname noselect'>Imal</p>
-                </div>
+                <p className='p-fname noselect'>Atif<br />Imal</p>
             </div>
             <div className='links'>
                 <div className='linkedin'><a

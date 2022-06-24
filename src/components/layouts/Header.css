@@ -5,11 +5,25 @@
     text-align: center;
     font-family: 'Press Start 2P';
     margin-right: calc(100vw - 950px);
+    color: #FFF;
 }
 
-.logo-ps {
-    height: 100%;
-    color: #FFF;
+@keyframes App-logo-change {
+    0% {
+        color: #FFF;
+    }
+
+    50% {
+        color: #232f3e;
+    }
+
+    100% {
+        color: #FFF;
+    }
+}
+
+.p-fname:hover {
+    animation: App-logo-change infinite 1s linear;
 }
 
 .p-fname {
@@ -21,26 +35,30 @@
     margin: 0;
 }
 
-.header-container {
+.App-header {
     text-align: left;
     background-position: center;
     background-size: cover;
-    min-height: 17vh;
     background-color: #232f3e;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.header-container div {
+.App-header div {
     display: inline-block;
     color: #FFF;
 }
 
-.header-container .links div {
+.App-header .links div {
     margin-left: 50px;
     width: 75px;
     padding: 10px;
     text-align: center;
+    min-width: min-content;
 }
+
+.App-header .links div:hover {
+    background-color: #48607d;
+  }
 
 @keyframes App-logo-spin {
     from {
@@ -60,12 +78,13 @@
 
 @media only screen and (max-width: 900px) {
     .logo {
-      display: block;
-      width: 100%;
-      height: auto;
+        display: block;
+        width: 100%;
+        height: auto;
     }
 
-    .header-container .links, .header-container .links div {
+    .App-header .links,
+    .App-header .links div {
         display: block;
         margin: 0;
         width: 100%;
@@ -78,4 +97,4 @@
     .card {
         width: auto;
     }
-  }
+}
