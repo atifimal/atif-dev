@@ -6040,6 +6040,13 @@ ol ul {
   padding-right: 100px;
 }
 
+@media only screen and (max-width: 767px) {
+  .row > [class*=col] {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -19716,6 +19723,12 @@ html {
 
 #contacts .row.contact-form, #features .row.feature-buttons {
   padding: 0 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  #contacts .row.contact-form, #features .row.feature-buttons {
+    padding: 0 30px;
+  }
 }
 
 .unselectable {
